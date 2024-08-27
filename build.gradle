@@ -28,11 +28,11 @@ test {
 }
 
 application {
-    mainClass.set("seedu.duke.Duke")
+    mainClass.set("src/main/java/Main/ProYapper.java")
 }
 
 shadowJar {
-    archiveBaseName = "duke"
+    archiveBaseName = "ProYapper"
     archiveClassifier = null
 }
 
